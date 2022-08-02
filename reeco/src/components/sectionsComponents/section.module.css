@@ -1,0 +1,17 @@
+.utilitySection{
+	padding: auto;
+	justify-content: center;
+	inline-size: 40vw;
+	overflow: break-word;
+	line-height: 2;
+}
+.gif{
+	margin-top: 50px;
+	float: right;
+	position:relative;
+	align-self:baseline;
+	border-radius: 20px;
+	bottom:500px;
+	width: 40vw;
+	height: 70vh;
+}
