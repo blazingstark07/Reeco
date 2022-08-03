@@ -1,16 +1,18 @@
 .utilitySection{
-	padding: auto;
+	margin-left: 20px;
 	justify-content: center;
 	inline-size: 40vw;
 	overflow: break-word;
 	line-height: 2;
 }
 .gif{
-	margin-top: 50px;
 	float: right;
 	position:relative;
 	border-radius: 20px;
 	bottom:30rem;
 	width: 40rem;
 	height: 30rem;
+}
+.sectionTabs{
+	display:inline-flex;
 }

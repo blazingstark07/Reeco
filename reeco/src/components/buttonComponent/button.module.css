@@ -1,5 +1,4 @@
 .button{
-	margin-top: 50px;
 	padding:10px;
 	border-radius: 10px;
 	background-color: palevioletred;
@@ -7,9 +6,41 @@
 	text-align: center;
 	height: 5vh;
 	width: 15vw;
+	justify-content: center;
+	align-items: center;
 }
 
 .button:hover {
 	background-color:rgb(239, 123, 146);
 	box-shadow: 10px 10px 10px rgb(235, 111, 111);
 }
+.tabs{
+	margin-top: 20px;
+	color:black;
+	text-align: center;
+	height: 3vh;
+	width: 15vh;
+	font-size: 18px;
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+}
+.tabs:hover{
+	text-underline-offset: 3px;
+	text-decoration-thickness: 0.2rem;
+	text-decoration-line: underline;
+	text-decoration-color: rgb(244, 29, 64,1);
+}
+
+.navTab{
+	margin-top: 20px;
+	color:black;
+	text-align: center;
+	height: 3vh;
+	width: 15vh;
+	font-size: 18px;
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+}
+

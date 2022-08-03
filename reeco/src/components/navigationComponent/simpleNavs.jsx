@@ -1,9 +1,10 @@
 import React from "react";
+import { Button } from "../buttonComponent/button";
 
-const SimpleNavs =()=>{
+export const SimpleNavs =(props)=>{
 	return (
 		<React.Fragment>
-			
+			<a href="#"><Button name={props.content} class={props.class}></Button></a>
 		</React.Fragment>
 	);
 }

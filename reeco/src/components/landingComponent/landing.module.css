@@ -13,7 +13,13 @@ h1{
 	float: right;
 	position:relative;
 	border-radius: 20px;
-	bottom:45rem;
+	bottom:50rem;
 	width: 45rem;
 	height: 30rem;
+}
+.buttonText{
+	display: grid;
+	grid-template-columns: auto auto;
+	align-items: center;
+	margin-top: 20px;
 }

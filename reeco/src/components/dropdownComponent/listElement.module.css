@@ -1,0 +1,7 @@
+.slideWindow{
+	visibility: hidden;
+}
+
+.slideWindow:hover{
+	visibility: visible;
+}
