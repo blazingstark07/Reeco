@@ -1,0 +1,10 @@
+.inputField{
+	text-align: center;
+	border-radius: 10px;
+	height: 50px;
+	width: 400px;
+	border:1px solid rgba(255, 0, 0, .1);
+}
+.inputField:hover{
+	border: 2px solid rgba(237, 65, 65, 0.5);
+}

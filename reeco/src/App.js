@@ -1,14 +1,14 @@
 import React from 'react';
+import {Landing} from './components/landingComponent/landing';
 import {NavBar} from './components/navigationComponent/navBar';
 import { UtilitySection } from './components/sectionsComponents/utilitySection';
-import {Gradient} from "./components/gradientComponent/gradient"
 
 function App() {
   return (
     <div className="App">
 			<NavBar/>
+			<Landing/>
 			<UtilitySection/>
-			<Gradient/>
     </div>
   );
 }

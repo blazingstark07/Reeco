@@ -1,0 +1,19 @@
+.container{
+	margin: 100px 200px 300px 200px;
+	inline-size: 28vw;
+	overflow: break-word;
+}
+h1{
+	font-size: 50px;
+}
+
+.image{
+	margin-top: 100px;
+	margin-right: 100px;
+	float: right;
+	position:relative;
+	border-radius: 20px;
+	bottom:45rem;
+	width: 45rem;
+	height: 30rem;
+}
