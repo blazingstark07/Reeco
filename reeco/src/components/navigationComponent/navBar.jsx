@@ -8,8 +8,8 @@ import {SimpleNavs} from "./simpleNavs";
 export const NavBar = (props) =>{
 
 	const navDropdown = ["Products","Solutions","Learn"];
-	const navSimple = ["Pricing","Enterprise"]
-	const authElement = ["Contact Sales","Login","Signup"]
+	const navSimple = [{name:"Pricing",route:"pricing"},{name:"Enterprise",route:"enterprise"}]
+	const authElement = [{name:"Contact Sales",route:"contact"},{name:"Login",route:"login"},{name:"Signup",route:"signup"}]
 
 	return(
 		<div className = {styles.navBar}>
@@ -23,10 +23,10 @@ export const NavBar = (props) =>{
 					</div>
 					);
 				})}
-				{navSimple.map((element)=><SimpleNavs content={element}/>)}
+				{navSimple.map((element)=><SimpleNavs content={element.name} routeName={element.route}/>)}
 			</ul>
 			<ul className={styles.navUl}>
-				{authElement.map((element)=><SimpleNavs content={element}/>)}
+				{authElement.map((element)=><SimpleNavs content={element.name} routeName={element.route}/>)}
 			</ul>
 		</div>
 	)

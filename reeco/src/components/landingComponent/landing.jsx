@@ -12,7 +12,7 @@ export const Landing = (props)=>{
 				<p>All of your work in one place: Tasks, Docs, Chat, Goals, and more.</p>
 				<Input placeholder="Enter Your Email Address" name="Email"/>	
 				<div className={styles.buttonText}>
-					<Button name="Get Started" class="button"/>	
+					<Button name="Get Started" class="button" color="purple" />
 					<p>Free forever.<br /> No credit cards</p>
 				</div>	
 			</div>

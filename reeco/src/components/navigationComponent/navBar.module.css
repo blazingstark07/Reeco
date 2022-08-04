@@ -6,11 +6,15 @@
 }
 
 .navBar{
-	margin-top:1rem;
+	z-index: 2;
 	display: grid;
 	grid-template-columns: 1fr 1fr 3fr;
 	justify-content: space-around;
 	align-items: center;
+	position:sticky;
+	top:0;
+	overflow: hidden;
+	background-color: rgb(169, 169, 169,0.2);
 }
 
 .brand{

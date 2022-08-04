@@ -1,4 +1,6 @@
 .container{
+	display:grid;
+	grid-template-columns: auto auto;
 	margin: 5rem auto;
 	border-radius: 30px;
 	padding: 20px 60px;

@@ -15,7 +15,7 @@ export const Button =(props)=>{
 			break;
 	}
 	return (
-		<div className={className}>
+		<div className={className} style={{backgroundColor:`${props.color}`}}>
 			{props.name}
 		</div>
 	);

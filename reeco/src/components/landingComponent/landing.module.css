@@ -1,5 +1,5 @@
 .container{
-	margin: 100px 200px 300px 200px;
+	margin: 200px 200px 0px 200px;
 	inline-size: 28vw;
 	overflow: break-word;
 }
@@ -8,18 +8,19 @@ h1{
 }
 
 .image{
-	margin-top: 100px;
+	z-index: -1;
 	margin-right: 100px;
 	float: right;
 	position:relative;
 	border-radius: 20px;
-	bottom:50rem;
+	bottom:25rem;
 	width: 45rem;
 	height: 30rem;
 }
 .buttonText{
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: 2fr 1fr;
+	justify-content:center;
 	align-items: center;
 	margin-top: 20px;
 }

@@ -6,10 +6,8 @@
 	line-height: 2;
 }
 .gif{
-	float: right;
-	position:relative;
+	z-index: 1;
 	border-radius: 20px;
-	bottom:30rem;
 	width: 40rem;
 	height: 30rem;
 }
