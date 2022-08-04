@@ -1,5 +1,5 @@
 .utilitySection{
-	margin-left: 20px;
+	margin-left: 40px;
 	justify-content: center;
 	inline-size: 40vw;
 	overflow: break-word;
@@ -12,5 +12,6 @@
 	height: 30rem;
 }
 .sectionTabs{
+	margin-left:20px;
 	display:inline-flex;
 }
